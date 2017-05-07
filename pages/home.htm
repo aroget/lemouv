@@ -1,0 +1,39 @@
+title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+<ul class="lm-home__nav">
+  <li class="lm-hero" style="background-image: url('https://source.unsplash.com/random/1280x500')">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8">
+        <h2 class="lm-hero__title lm-hero__title--top-left">{{'Peu import votre age ou votre'|_}}</h2>
+      </div>
+    </div>
+  </div>
+  </li>
+
+  <a href="{{ 'info'|page }}">
+    <li class="lm-hero" style="background-image: url('https://source.unsplash.com/random/1280x500')">
+      <h2 class="lm-hero__title text-center">{{ 'Info Pratiques' |_ }}</h2>
+    </li>
+  </a>
+
+  <a href="{{ 'philosophy'|page }}">
+    <li class="lm-hero" style="background-image: url('https://source.unsplash.com/random/1280x500')">
+      <h2 class="lm-hero__title text-center">{{ 'Philosophie' |_ }}</h2>
+    </li>
+  </a>
+
+  <a href="{{ 'first-visit'|page }}">
+    <li class="lm-hero" style="background-image: url('https://source.unsplash.com/random/1280x500')">
+      <h2 class="lm-hero__title text-center">{{ 'Premiere Visite' |_ }}</h2>
+    </li>
+  </a>
+  <a href="{{ 'contact'|page }}">
+    <li class="lm-hero" style="background-image: url('https://source.unsplash.com/random/1280x500')">
+      <h2 class="lm-hero__title text-center">{{ 'Contact' |_ }}</h2>
+    </li>
+  </a>
+</ul>

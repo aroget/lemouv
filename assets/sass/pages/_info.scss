@@ -1,0 +1,89 @@
+.lm-info {
+  h2 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  &__center {
+    h4,
+    p:not(.text-muted) {
+      color: $brand-blue;
+    }
+
+    h4 {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+  }
+
+  &__prices {
+    margin-top: 15px;
+    color: $brand-blue;
+    background: $brand-yellow;
+
+    h2 {
+      color: $color-black;
+    }
+  }
+
+  &__table {
+    p {
+      margin-bottom: 0;
+    }
+
+    &--header {
+      padding: 14px 0;
+      text-transform: uppercase;
+      border-bottom: 1px solid $color-black;
+    }
+    &--item {
+      padding: 14px 0;
+      border-bottom: 1px dotted $color-black;
+
+      &--last {
+        margin-bottom: 60px;
+        border-bottom: 1px solid $color-black;
+      }
+
+      &--half {
+        margin-bottom: 30px;
+        border-bottom: 1px solid $color-black;
+      }
+    }
+  }
+
+  &__schedule {
+    color: $brand-yellow;
+    padding-bottom: 60px;
+    background: $brand-blue;
+
+    h2 {
+      color: $brand-yellow;
+    }
+
+    .lm-info-day,
+    .lm-info-time {
+      width: 13.9%;
+      display: inline-block;
+    }
+  }
+
+  &__days {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+
+  &__hours {
+    padding: 12px 0;
+    color: $color-white;
+    border-top: 1px solid $brand-yellow;
+    border-bottom: 1px solid $brand-yellow;
+  }
+
+  &__contact {
+    p {
+      font-size: 0.9em;
+      margin-bottom: 3px;
+    }
+  }
+}

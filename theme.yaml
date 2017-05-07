@@ -1,0 +1,8 @@
+name: LeMouv
+description: LeMouv Marketing Site.
+author: LeMouv Team
+homepage: 'http://lemouv.com'
+code: lemouv
+require:
+  - LaminSanneh.FlexiContact
+  - RainLab.Translate

@@ -1,0 +1,28 @@
+body {
+  &.isDrop {
+    overflow: hidden;
+  }
+}
+.lm-hero {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &__title {
+    top: 200px;
+    position: relative;
+    color: $color-white;
+    text-transform: uppercase;
+
+    &--top-left {
+      top: 100px;
+      left: 100px;
+    }
+  }
+}
+
+
+#layout-content {
+  padding-bottom: 40px;
+}

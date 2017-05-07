@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500);
+body.isDrop {
+  overflow: hidden; }
+
+.lm-hero {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .lm-hero__title {
+    top: 200px;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase; }
+    .lm-hero__title--top-left {
+      top: 100px;
+      left: 100px; }
+
+#layout-content {
+  padding-bottom: 40px; }
+
+.lmbtn {
+  border: none;
+  box-shadow: none; }
+  .lmbtn:focus, .lmbtn:active {
+    outline: none; }
+  .lmbtn--primary {
+    padding: 12px 18px;
+    color: #f1db44;
+    background: #33437f;
+    text-transform: uppercase; }
+  .lmbtn--primary-white {
+    padding: 12px 18px;
+    color: #ffffff;
+    background: #33437f;
+    text-transform: uppercase; }
+  .lmbtn--link {
+    padding: 0;
+    color: #000000;
+    background: transparent; }
+
+body {
+  font-size: 160%;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif; }
+
+h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 500; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.4em; }
+
+h3 {
+  font-size: 1.2em; }
+
+h4 {
+  font-size: 1.1em; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-heading-1 {
+  font-size: 2em; }
+
+.text-heading-3 {
+  font-size: 1.2em; }
+
+.lm-form input,
+.lm-form textarea {
+  border-radius: 0; }
+
+.lm-form textarea {
+  resize: none; }
+
+.lm-form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase; }
+
+.lm-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase; }
+
+.lm-form :-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase; }
+
+.lm-form :-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase; }
+
+.lm-nav {
+  background: #ffffff;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.12); }
+  .lm-nav__logo {
+    height: 90px;
+    padding: 14px 0; }
+    .lm-nav__logo img {
+      width: auto;
+      height: 60px; }
+  .lm-nav__desktop li a {
+    padding-top: 32.5px;
+    padding-bottom: 32.5px; }
+  .lm-nav__desktop .navbar-text {
+    padding-top: 10.5px; }
+  .lm-nav__pipe {
+    margin-left: 0;
+    margin-right: 0; }
+  .lm-nav__bars:hover {
+    cursor: pointer; }
+  .lm-nav__mobile {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: scroll;
+    text-align: center;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.55);
+    transform: translate(0, -110%);
+    transition: transform 200ms ease-in-out; }
+    .lm-nav__mobile .isMobileTrigger {
+      right: 20px;
+      position: fixed;
+      font-size: 3em;
+      color: #ffffff; }
+    .lm-nav__mobile ul:not(.inline) {
+      list-style: none;
+      padding-left: 0;
+      transform: translate(0%, 50%); }
+    .lm-nav__mobile ul.inline {
+      padding-left: 0;
+      list-style: none; }
+      .lm-nav__mobile ul.inline li {
+        padding: 0;
+        display: inline-block;
+        padding-right: 25px; }
+        .lm-nav__mobile ul.inline li:last-child {
+          padding-right: 0; }
+    .lm-nav__mobile li {
+      padding: 15px 0; }
+      .lm-nav__mobile li a {
+        color: #ffffff;
+        text-transform: uppercase; }
+        .lm-nav__mobile li a:hover {
+          text-decoration: none; }
+    .lm-nav__mobile--active {
+      visibility: visible;
+      transform: translate(0, 0%); }
+
+.lm-info h2 {
+  padding-top: 65px;
+  padding-bottom: 65px; }
+
+.lm-info__center h4,
+.lm-info__center p:not(.text-muted) {
+  color: #33437f; }
+
+.lm-info__center h4 {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.lm-info__prices {
+  margin-top: 15px;
+  color: #33437f;
+  background: #f1db44; }
+  .lm-info__prices h2 {
+    color: #000000; }
+
+.lm-info__table p {
+  margin-bottom: 0; }
+
+.lm-info__table--header {
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000; }
+
+.lm-info__table--item {
+  padding: 14px 0;
+  border-bottom: 1px dotted #000000; }
+  .lm-info__table--item--last {
+    margin-bottom: 60px;
+    border-bottom: 1px solid #000000; }
+  .lm-info__table--item--half {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000000; }
+
+.lm-info__schedule {
+  color: #f1db44;
+  padding-bottom: 60px;
+  background: #33437f; }
+  .lm-info__schedule h2 {
+    color: #f1db44; }
+  .lm-info__schedule .lm-info-day,
+  .lm-info__schedule .lm-info-time {
+    width: 13.9%;
+    display: inline-block; }
+
+.lm-info__days {
+  padding-bottom: 15px;
+  text-transform: uppercase; }
+
+.lm-info__hours {
+  padding: 12px 0;
+  color: #ffffff;
+  border-top: 1px solid #f1db44;
+  border-bottom: 1px solid #f1db44; }
+
+.lm-info__contact p {
+  font-size: 0.9em;
+  margin-bottom: 3px; }
+
+.lm-home__nav {
+  padding-left: 0;
+  list-style: none; }
+  .lm-home__nav a:hover {
+    text-decoration: none; }
+  .lm-home__nav li {
+    position: relative; }
+
+.lm-philosophy h2 {
+  padding-top: 65px;
+  padding-bottom: 65px; }
+
+.lm-philosophy .text-heading-1 {
+  text-transform: uppercase; }
+
+.lm-philosophy__intro {
+  padding-bottom: 65px;
+  background: #f1f1f1; }
+  .lm-philosophy__intro p {
+    color: #33437f; }
+
+.lm-philosophy .lm-philosophy__detail {
+  height: 115px;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 15px 25px;
+  margin-bottom: 40px; }
+  .lm-philosophy .lm-philosophy__detail__title {
+    margin-bottom: 3px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .lm-philosophy .lm-philosophy__detail__description {
+    color: #ffffff; }
+  .lm-philosophy .lm-philosophy__detail--grimpe {
+    background: #f1db44; }
+  .lm-philosophy .lm-philosophy__detail--entrainement {
+    background: #33437f; }
+  .lm-philosophy .lm-philosophy__detail--detente {
+    background: #7abfb5; }
+
+.lm-philosophy__vision {
+  padding-bottom: 65px;
+  background: #7abfb5; }
+  .lm-philosophy__vision h2 {
+    color: #000000; }
+  .lm-philosophy__vision p {
+    color: #33437f; }
+
+.lm-philosophy__equipe {
+  font-size: 0.9em; }
+  .lm-philosophy__equipe h5 {
+    margin-bottom: 3px;
+    color: #33437f; }

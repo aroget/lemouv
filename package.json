@@ -1,0 +1,16 @@
+{
+  "name": "lemouv",
+  "version": "1.0.0",
+  "description": "LeMouv ==========",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e scss -x node-sass --include-path scss ./assets/sass/main.scss ./assets/css/theme.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
+}

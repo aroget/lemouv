@@ -1,0 +1,31 @@
+.lm-form {
+  input,
+  textarea {
+    border-radius: 0;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+}

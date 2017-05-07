@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+$font-bold: 500;
+$font-light: 300;
+$font-regular: 400;
+
+body {
+  font-size: 160%;
+  line-height: 1.5;
+  font-weight: $font-regular;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: $font-bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-heading-1 {
+  font-size: 2em;
+}
+
+.text-heading-3 {
+  font-size: 1.2em;
+}

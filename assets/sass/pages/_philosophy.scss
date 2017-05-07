@@ -1,0 +1,68 @@
+.lm-philosophy {
+  h2 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .text-heading-1 {
+    text-transform: uppercase;
+  }
+
+  &__intro {
+    padding-bottom: 65px;
+    background: rgb(241, 241, 241);
+
+    p {
+      color: $brand-blue;
+    }
+  }
+
+  .lm-philosophy__detail {
+    height: 115px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 15px 25px;
+    margin-bottom: 40px;
+
+    &__title {
+      margin-bottom: 3px;
+      color: $color-black;
+      font-weight: $font-bold;
+      text-transform: uppercase;
+    }
+    &__description {
+     color: $color-white;
+    }
+
+    &--grimpe {
+      background: $brand-yellow;
+    }
+    &--entrainement {
+      background: $brand-blue;
+    }
+    &--detente {
+      background: $brand-green;
+    }
+  }
+
+  &__vision {
+    padding-bottom: 65px;
+    background: $brand-green;
+    h2 {
+      color: $color-black;
+    }
+
+    p {
+      color: $brand-blue;
+    }
+  }
+
+  &__equipe {
+    font-size: 0.9em;
+
+    h5 {
+      margin-bottom: 3px;
+      color: $brand-blue;
+    }
+  }
+}
